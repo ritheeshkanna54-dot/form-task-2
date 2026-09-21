@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        STUDENT REGISTRATION FORM
+    </title>
+</head>
+<body >
+    <h1 style="font-size: 70px; text-align: center;">
+        STUDENT REGISTRATION FORM</h1>
+
+    <form style="font-weight: bold; text-align: center;" action="form.php" method="post" enctype="multipart/form-data">
+
+        <!-- Roll Number -->
+        <label>Roll no. :</label>
+        <input type="text" name="rollno">
+        <br><br>
+
+        <!-- Student Name -->
+        <label>Student name :</label>
+        <input type="text" name="firstname" placeholder="First Name">
+        -
+        <input type="text" name="lastname" placeholder="Last Name">
+        <br><br>
+
+        <!-- Father's Name -->
+        <label>Father's name :</label>
+        <input type="text" name="fathername">
+        <br><br>
+
+        <!-- Date of Birth -->
+        <label>Date of birth :</label>
+
+        <select name="day">
+            <option>Day</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+            <option>16</option>
+            <option>17</option>
+            <option>18</option>
+            <option>19</option>
+            <option>20</option>
+            <option>21</option>
+            <option>22</option>
+            <option>23</option>
+            <option>24</option>
+            <option>25</option>
+            <option>26</option>
+            <option>27</option>
+            <option>28</option>
+            <option>29</option>
+            <option>30</option>
+            <option>31</option>
+        </select>
+
+        <select name="month">
+            <option>Month</option>
+            <option>January</option>
+            <option>February</option>
+            <option>March</option>
+            <option>April</option>
+            <option>May</option>
+            <option>June</option>
+            <option>July</option>
+            <option>August</option>
+            <option>September</option>
+            <option>October</option>
+            <option>November</option>
+            <option>December</option>
+        </select>
+
+        <select name="year">
+            <option>Year</option>
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+        </select>
+
+        <i>(DD-MM-YYYY)</i>
+        <br><br>
+
+        <!-- Mobile Number -->
+        <label>Mobile no. :</label>
+        <input type="text" value="+91" size="2" readonly>
+        -
+        <input type="text" name="mobile">
+        <br><br>
+
+        <!-- Email -->
+        <label>Email id :</label>
+        <input type="email" name="email">
+        <br><br>
+
+        <!-- Password -->
+        <label>Password :</label>
+        <input type="password" name="password">
+        <br><br>
+
+        <!-- Gender -->
+        <label>Gender :</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <!-- Department -->
+        <label>Department :</label>
+
+        <input type="checkbox" name="department" value="CSE"> CSE
+        <input type="checkbox" name="department" value="IT"> IT
+        <input type="checkbox" name="department" value="ECE"> ECE
+        <input type="checkbox" name="department" value="Civil"> Civil
+        <input type="checkbox" name="department" value="Mech"> Mech
+
+        <br><br>
+
+        <!-- Course -->
+        <label>Course :</label>
+
+        <select name="course">
+            <option>---------------- Select Current Course's ----------------</option>
+            <option>B.E Computer Science</option>
+            <option>B.E Information Technology</option>
+            <option>B.E Electronics</option>
+            <option>B.Tech Artificial Intelligence</option>
+        </select>
+
+        <br><br>
+
+        <!-- Student Photo -->
+        <label>Student photo :</label>
+        <input type="file" name="photo">
+        <br><br>
+
+        <!-- City -->
+        <label>City :</label>
+        <input type="text" name="city">
+        <br><br>
+
+        <!-- Address -->
+        <label>Address :</label>
+        <textarea name="address" rows="4" cols="40"></textarea>
+
+    </form>
+
+</html>
+</body>
+</html>
